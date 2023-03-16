@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background-image: url('../static/tlo.png');
+    background-size: 100vw;
+}
+#lewy {
+    width: 47vw;
+    height: 80vh;
+    background-image: url('../static/poczatek.png');
+    float: left;
+    margin: 10vh 2vw 5vh 2vw;
+    background-size: cover;
+}
+#prawy {
+    float: left;
+    width: 47vw;
+    height: 80vh;
+    background-color: #dc61d6;
+    background-color: rgba(252, 56, 144, 0.7);
+    margin-top: 10vh;
+}
+#prawyprawy {
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+#prawylewy {
+    width: 30%;
+    height: 70%;
+    float: left;
+}
+#prawydol {
+    height: 30%;
+    width: 100%;
+}
+.item {
+    background-color: grey;
+    width: 80%;
+    height: 35%;
+    border-style: solid;
+    margin: 0 10% 0 10%;
+}
+#postac {
+    height: 60%;
+    width: 35%;
+    background-image: url("../static/glowny bohater.png");
+    background-size: cover;
+    float: left;
+    margin: 10% 2% 0 2%;
+}
+
+.bron {
+    margin-top: 10%;
+    background-image: url('../static/glock.png');
+    background-size: cover;
+    background-position: center;
+}
+.plecak {
+    margin-top: 10%;
+    background-image: url('../static/plecak.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.prawa {
+    margin-top: 10%;
+    background-image: url('../static/zapalniczka.png');
+    background-size: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.lewa {
+    margin-top: 10%;
+    background-image: url('../static/pueblo.png');
+    background-size: 80%;
+    background-position: center;
+}
+
+.dialog {
+    width: 95%;
+    border: solid;
+    background-color: #111c65;
+    color: white;
+    font-size: 40px;
+    font-family: "VT323", monospace;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.dialogelse {
+    width: 95%;
+    border: solid;
+    background-color: #111c65;
+    color: white;
+    font-size: 40px;
+    font-family: "VT323", monospace;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.plecakitem {
+    float: left;
+    margin: 1%;
+    width: 22%;
+    height: 87%;
+    background-color: grey;
+    border-style: solid;
+}
+#background-music {
+    opacity: 0;
+}
