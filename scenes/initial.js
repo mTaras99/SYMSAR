@@ -123,15 +123,15 @@ const generatePrawy = (onclick, divContent) => {
     return prawyContent;
 }
 let probaScene = generateLewy(
-    "dupa",
-    "sraka",
-    "fiut"
+    "siema",
+    "siema",
+    "siema"
     ) + generatePrawy(
-    ["dupa1",
-    "dupa2",
-    "dupa(),dupa"],
-    ["siema",
-    "tutaj"
+    ["elo",
+    "elo",
+    "elo(),elo"],
+    ["elo",
+    "elo"
     ]
     )
 
