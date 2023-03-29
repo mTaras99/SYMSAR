@@ -1,6 +1,6 @@
 const dialogOptions = {
     "<Wsiądź>": "intro()",
-    "Gdzie ja jestem?": "whereAmI()",
+    "Gdzie ja jestem?": 'whereAmI()',
     "chuj ci w dupe luger": "chujCi()",
 };
 
@@ -48,8 +48,7 @@ function whereAmI() {
     newDialog.classList.add("dialogelse");
     newDialog.setAttribute("data-options", "<Wsiądź>");
     newDialog.setAttribute("onclick", "openDialogWindow()");
-    newDialog.innerHTML =
-        "W dupie a gdzie? hah Witamy w koloni, nie świruj danny, wbijaj do środka";
+    newDialog.innerHTML = "W dupie a gdzie? hah Witamy w koloni, nie świruj danny, wbijaj do środka";
     newDialog.style.fontSize = "40px";
     const lewy = document.querySelector("#lewy");
     lewy.style.backgroundImage = "url('static/dupie.png')";
@@ -64,4 +63,5 @@ function whereAmI() {
     option1.innerText = "<Wsiądź>";
     option1.setAttribute("onclick", "intro()");
     prawyDol.appendChild(option1);
+    console.log(calos)
 }
